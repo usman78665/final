@@ -1,0 +1,61 @@
+﻿<html>
+<head>
+<title>Contact us</title>
+<link rel="stylesheet" href="StyleSheet7.css">
+</head>
+<body>
+
+<nav>
+        <div class="logo">
+            <p>HotBeans</p>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="our team.html">Our team</a></li> 
+        </ul>
+    </nav>
+
+<div class="kala">
+    <form name="form1" action onsubmit="return validateEntry()" style="justify-content:center">
+    <label for="sos">First name:</label>
+  <input type="text" id="sis" name="fname" value="">
+  <br>
+  <br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="sus" value="">
+  <br>
+  <br>
+  <label for="pep">Message:</label>
+  <br>
+  <textarea id="pep" name="message" rows="8" cols="55"></textarea>
+  <br>
+  <br>
+  <input type="submit" class="btn" value="Submit">
+    </form>
+    
+</div>
+
+<script>
+           
+            function validateEntry() {
+            //var fn = document.getElementById('sos').value;
+            var fn = document.forms["form1"]["sis"].value;
+            //alert(fn);
+            if (fn == null || fn == "") { alert("Please enter first name"); }
+                        
+            var ln = document.forms["form1"]["sus"].value;
+            //alert(ln);
+            if (ln == null || ln == "") { alert("Please enter last name"); }
+
+            var ln = document.forms["form1"]["pep"].value;
+            //alert(ln);
+            if (ln == null || ln == "") { alert("Please enter a message"); }
+            
+        }
+        </script>
+
+</body>
+</html>

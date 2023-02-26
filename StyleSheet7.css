@@ -1,0 +1,88 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   backround-color: #fffff;
+   font-family: sans-serif;
+}
+.kala
+{
+   width: 500px;
+   background-color: #fff;
+   box-shadow: 0 0 20px 0 #999;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+}
+
+nav{
+    width: 95%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+    margin-top: 0px;
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+form
+{
+   margin: 35px;
+}
+
+input[type=text], select, textareas
+{
+   width: 400px;
+   height: 45px;
+   margin-top: 20px;
+   padding-left: 10px;
+   border: 1px solid #777;
+   border-radius: 14px;
+   outline: none;
+
+}
+.btn
+{
+  padding: 3px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
